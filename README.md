@@ -13,9 +13,10 @@ swings that HPC clusters impose on the electrical grid.
 | Project | What it does |
 |---|---|
 | **[Collecting and Adjusting Server Power](https://github.com/leedanie2/Collecting-and-Adjusting-Server-Power)** | Measures a datacenter CPU's power draw under load, detects transient onsets, smooths them with RAPL capping and di/dt ramp shaping, then scores fleet-scale grid impact against NERC/IEEE thresholds in a Simulink phasor model. C polling daemons, InfluxDB, MATLAB. |
+| **[Curve Tracer](https://github.com/leedanie2/curve-tracer)** | Programmable semiconductor curve tracer (in progress). Two-layer KiCad PCB, STM32 firmware, and SPICE Monte Carlo analysis of the analog front end; designed to extract SPICE model parameters from measured I-V curves. |
+| **[Telemetry Replay](https://github.com/leedanie2/telemetry-replay)** | PostgreSQL energy-telemetry replay: idempotent ingestion that doesn't double-count retries or overwrite conflicting measurements, SQL window analysis, Docker demo, tested CI. |
+| **[Landing Target Vision](https://github.com/leedanie2/landing-target-vision)** | OpenCV ArUco landing-target detector with explicit image-plane offsets, failure handling, and a published evaluation correction. |
 | **[Fantasy Baseball ML](https://github.com/leedanie2/fantasy-baseball-ml)** | Predicts fantasy points per game from pitch-level Statcast data using a stacked ensemble (ElasticNet + gradient boosting + neural net). Leakage-free point-in-time features, three-lens feature selection, automated in-season retraining. |
-| **[Instagram Export Analyzer](https://github.com/leedanie2/instagram-unfollowers)** | Local-only Streamlit app that reads an Instagram data export to find non-followers and diff snapshots over time. No account, no API key, no network calls. |
-| **[Double Pendulum Simulation](https://github.com/leedanie2/double-pendulum-simulation)** | Simulates and visualizes chaotic motion with `solve_ivp` and Matplotlib. |
 
 ### Background
 
